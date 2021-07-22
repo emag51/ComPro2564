@@ -1,0 +1,16 @@
+# task 14
+text = input("please enter text:")
+special_character = [' ', '#', '@', '!', '%', '$', ',', ':', ';', '&']
+count1 = 0
+count2 = 0
+count3 = 0
+for i in text: 
+    if i.isupper(): 
+        count1+= 1
+    elif i.islower(): 
+        count2+= 1
+    elif i in special_character:
+        count3+= 1
+print("upper letter :", count1) 
+print("lower letter :", count2) 
+print("special character :", count3) 
