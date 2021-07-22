@@ -1,0 +1,18 @@
+# task 13
+while True:
+  admin = "admin"
+  default = "1234"
+  user = str(input("enter user name:"))
+  pas = str(input("enter user password:"))
+  if admin == user and default == pas :
+    newuser = str(input("please enter new username:"))
+    newpas = str(input("please enter new password:"))
+    if newuser == newuser and newpas == newpas:
+      print("your new user name :",newuser,"\nyour new password  :",newpas)
+      break
+  elif admin == user and default != pas :
+    print("your password is wrong")
+  elif admin != user and default == pas :
+    print("your username is wrong")
+  else:
+    print("your username and password is wrong")
