@@ -1,0 +1,6 @@
+# code 5
+sample = {"name":"kelly","age":25,"salary":8000,"city":"NY"}
+keytoremove = ["name","salary"]
+for i in keytoremove:
+  sample.pop(i)
+print(sample)
