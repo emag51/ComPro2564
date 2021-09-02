@@ -1,0 +1,6 @@
+# code 11
+k = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
+x = k.values()
+l = list(x)
+l.sort()
+print(l)
