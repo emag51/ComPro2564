@@ -1,0 +1,10 @@
+# code 18
+a = [{'id': 1, 'success': True, 'name': 'Lary'}, {'id': 2, 'success': False, 
+'name': 'Rabi'}, {'id': 3, 'success': True, 'name': 'Alex'}]
+count = 0
+l = len(a)
+for i in range(0,l):
+  c = a[i]['success']
+  if c == True:
+    count+=1
+print(count)
