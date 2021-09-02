@@ -1,0 +1,5 @@
+# coode 8
+sampledict = {'phy':82,'math':65,'history':75}
+for i in sampledict:
+  if sampledict[i] == min(sampledict.values()):
+    print(i)
