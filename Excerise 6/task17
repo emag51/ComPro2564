@@ -1,0 +1,6 @@
+# code 17
+a = {'1':['a','b'], '2':['c','d']}
+b = []
+for i in a["1"]:
+  for j in a["2"]:
+   print(i+j)
