@@ -1,0 +1,7 @@
+# code 3
+sampleDict = {"class":{"student":{"name":"Mike","marks":{"phy":70,"history":80}}}}
+x = sampleDict["class"]
+y = x["student"]
+z = y["marks"]
+a = z["history"]
+print(a)
